@@ -1,5 +1,5 @@
 class ClassSubjectsController < ApplicationController
-  before_action :set_class_subject, only: %i[ show update destroy ]
+  before_action :set_class_subject, only: %i[show update destroy]
 
   # GET /class_subjects
   def index
@@ -39,13 +39,14 @@ class ClassSubjectsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_class_subject
-      @class_subject = ClassSubject.find(params[:id])
-    end
 
-    # Only allow a list of trusted parameters through.
-    def class_subject_params
-      params.require(:class_subject).permit(:subject, :description, :price, :duration)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_class_subject
+    @class_subject = ClassSubject.find(params[:id])
+  end
+
+  # Only allow a list of trusted parameters through.
+  def class_subject_params
+    params.require(:class_subject).permit(:subject, :description, :price, :duration)
+  end
 end
