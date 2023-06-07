@@ -71,15 +71,15 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-cd my-folder
-git clone https://github.com/enoqueJonas/tutoring-app-backend/
-cd tutoring-app-backend
+`cd my-folder`
+`git clone https://github.com/enoqueJonas/tutoring-app-backend/`
+`cd tutoring-app-backend`
 
 ### Install
 
-bundle install
-rails db:create
-rails db:migrate
+`bundle install`
+`rails db:create`
+`rails db:migrate`
 
 ### Usage
 
@@ -116,15 +116,12 @@ To run the project, execute the following commands in your terminal:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
 ## 🔭 Future Features <a name="future-features"></a>
 
 - Improve optimization
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
 
 ## Frontend
 - Here's the link to the [frontend](https://github.com/enoqueJonas/tutoring-app-frontend)
