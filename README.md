@@ -6,8 +6,6 @@
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
@@ -27,8 +25,6 @@
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
-
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 Turoring Booking Backend <a name="about-project"></a>
 
@@ -52,15 +48,11 @@ This app is an api for the Tutoring app.
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 - Access available classes
 - Reserve classes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -97,8 +89,6 @@ To run the project, execute the following commands in your terminal:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Enoque Jonas**
@@ -111,6 +101,7 @@ To run the project, execute the following commands in your terminal:
 
 - GitHub: [@Uthmanbello](https://github.com/Uthmanbello)
 - Twitter: [@UthmanDeRoyale](https://twitter.com/UthmanDeRoyale)
+- LinkedIn: [Uthman Igein Bello-Imoukhuede](https://www.linkedin.com/in/uthmanbelloimoukhuede)
 
 👤 **Jorge Abrahan**
 
