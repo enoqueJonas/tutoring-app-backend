@@ -13,7 +13,15 @@ class ClassSubjectsControllerTest < ActionDispatch::IntegrationTest
   test 'should create class_subject' do
     assert_difference('ClassSubject.count') do
       post class_subjects_url,
-           params: { class_subject: { description: @class_subject.description, duration: @class_subject.duration, price: @class_subject.price, subject: @class_subject.subject } }, as: :json
+           params: {
+             class_subject: {
+               description: @class_subject.description,
+               duration: @class_subject.duration,
+               price: @class_subject.price,
+               subject: @class_subject.subject
+             }
+           },
+           as: :json
     end
 
     assert_response :created
@@ -26,7 +34,15 @@ class ClassSubjectsControllerTest < ActionDispatch::IntegrationTest
 
   test 'should update class_subject' do
     patch class_subject_url(@class_subject),
-          params: { class_subject: { description: @class_subject.description, duration: @class_subject.duration, price: @class_subject.price, subject: @class_subject.subject } }, as: :json
+          params: {
+            class_subject: {
+              description: @class_subject.description,
+              duration: @class_subject.duration,
+              price: @class_subject.price,
+              subject: @class_subject.subject
+            }
+          },
+          as: :json
     assert_response :success
   end
 
