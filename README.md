@@ -109,7 +109,7 @@ To run the project, execute the following commands in your terminal:
 - GitHub: [@jorgeabrahan](https://github.com/jorgeabrahan)
 - LinkedIn: [@jorgeabrahan](https://www.linkedin.com/in/jorge-siguenza/?locale=en_US)
 
-👤 **ANAS ALSAMMARRAIE**
+👤 **Anas Alsammarraie**
 
 - GitHub: [@anas599](https://github.com/anas599)
 - Twitter: [@anas599](https://twitter.com/anas599)
