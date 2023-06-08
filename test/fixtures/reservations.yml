@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2023-06-07
+  city: MyString
+  user: one
+  classSubject: one
+  start: 2023-06-07 19:21:16
+
+two:
+  date: 2023-06-07
+  city: MyString
+  user: two
+  classSubject: two
+  start: 2023-06-07 19:21:16
