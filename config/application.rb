@@ -15,5 +15,9 @@ module TutoringAppBackend
     end
 
     config.api_only = true
+
+    # Enable session and cookies middleware
+    config.middleware.use ActionDispatch::Cookies
+    config.middleware.use ActionDispatch::Session::CookieStore
   end
 end
