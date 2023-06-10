@@ -22,7 +22,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_10_220631) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "image"
-    t.string "tutor_name"
+    t.string "tutorName"
   end
 
   create_table "reservations", force: :cascade do |t|
