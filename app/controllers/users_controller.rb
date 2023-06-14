@@ -51,11 +51,9 @@ class UsersController < ApplicationController
     params.require(:user).permit(:name, :email, :facebook, :linkedin, :twitter)
   end
 
-  private
-
   def require_login
-    unless logged_in?
-      render json: { error: 'You must be logged in' }, status: :unauthorized
-    end
+    return if logged_in?
+
+    render json: { error: 'You must be logged in' }, status: :unauthorized
   end
 end

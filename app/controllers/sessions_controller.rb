@@ -7,6 +7,7 @@ class SessionsController < ApplicationController
     else
       render json: { message: 'Invalid Username' }
     end
+    Rails.logger.debug "Response Headers: #{response.headers.inspect}"
   end
 
   def destroy
@@ -21,5 +22,7 @@ class SessionsController < ApplicationController
     else
       render json: { logged_in: false }
     end
+    Rails.logger.debug "Session ID: #{session.id}"
+    Rails.logger.debug "Session Data: #{session.to_hash}"
   end
 end
