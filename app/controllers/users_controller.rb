@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_action :set_user, only: %i[show update destroy]
-
+  before_action :require_login, only: [:show]
   # GET /users
   def index
     @users = User.all
@@ -10,7 +10,8 @@ class UsersController < ApplicationController
 
   # GET /users/1
   def show
-    render json: @user
+    user = User.find(session[:user_id])
+    render json: user
   end
 
   # POST /users
@@ -50,5 +51,11 @@ class UsersController < ApplicationController
   # Only allow a list of trusted parameters through.
   def user_params
     params.require(:user).permit(:name, :email, :facebook, :linkedin, :twitter)
+  end
+
+  def require_login
+    return if logged_in?
+
+    render json: { error: 'You must be logged in' }, status: :unauthorized
   end
 end

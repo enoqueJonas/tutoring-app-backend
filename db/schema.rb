@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_06_11_090917) do
+ActiveRecord::Schema[7.0].define(version: 2023_06_14_191638) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -31,11 +31,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_11_090917) do
     t.date "date"
     t.string "city"
     t.bigint "user_id", null: false
-    t.bigint "class_subject_id", null: false
-    t.datetime "start", precision: nil
+    t.bigint "classSubject_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["class_subject_id"], name: "index_reservations_on_class_subject_id"
+    t.index ["classSubject_id"], name: "index_reservations_on_classSubject_id"
     t.index ["user_id"], name: "index_reservations_on_user_id"
   end
 
@@ -50,6 +49,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_11_090917) do
   end
 
   add_foreign_key "class_subjects", "users"
-  add_foreign_key "reservations", "class_subjects"
+  add_foreign_key "reservations", "class_subjects", column: "classSubject_id"
   add_foreign_key "reservations", "users"
 end

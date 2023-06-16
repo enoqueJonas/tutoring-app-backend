@@ -57,4 +57,6 @@ Rails.application.configure do
 
   # Annotate rendered view with file names.
   # config.action_view.annotate_rendered_view_with_filenames = true
+  config.middleware.use ActionDispatch::Cookies
+  config.middleware.use ActionDispatch::Session::CookieStore, key: '_tutoring_key'
 end
