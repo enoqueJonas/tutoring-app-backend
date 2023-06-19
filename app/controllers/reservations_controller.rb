@@ -1,6 +1,5 @@
 class ReservationsController < ApplicationController
-  before_action :set_reservation, only: %i[show update destroy]
-
+  before_action :set_reservation, only: %i[show write update destroy]
   # GET /reservations
   def index
     @reservations = Reservation.all
@@ -21,6 +20,7 @@ class ReservationsController < ApplicationController
       render json: @reservation, status: :created, location: @reservation
     else
       render json: @reservation.errors, status: :unprocessable_entity
+      Rails.logger.error(@reservation.errors.full_messages.join(", "))
     end
   end
 
