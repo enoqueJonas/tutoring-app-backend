@@ -1,15 +1,6 @@
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins "https://tutoring-front-end.onrender.com"
-
-    resource "/logged_in",
-      headers: :any,
-      methods: [:get],
-      credentials: true
-  end
-
-  allow do
-    origins "https://tutoring-front-end.onrender.com"
+    origins 'http://localhost:3001', 'https://tutoring-front-end.onrender.com'
 
     resource "*",
       headers: :any,
