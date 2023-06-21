@@ -1,4 +1,4 @@
-## Copyright 2021, Enoque Macanda
+Copyright (c) 2023 Uthman Igein Bello-Imoukhuede, ANAS ALSAMMARRAIE, Enoque Macanda, Jorge Abrahan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this Hello Rails and associated documentation files, to deal in the Hello Rails without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Hello Rails, and to permit persons to whom the Hello Rails is furnished to do so, subject to the following conditions:
 

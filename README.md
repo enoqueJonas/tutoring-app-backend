@@ -13,6 +13,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -54,6 +55,13 @@ This app is an api for the Tutoring app.
 - Reserve classes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://tutoring-app-backend-group.onrender.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -143,8 +151,9 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Hat tip to anyone whose code was used
-- Microverse
+We would like to thank all our team members, colleagues and mentors at Microverse.
+We would also like to thank <a href="https://www.behance.net/muratk">Murat Korkmaz</a>
+of Behance for this wonderful app design <a href="https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign/modules/173005583">Book a vespa test-ride</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
