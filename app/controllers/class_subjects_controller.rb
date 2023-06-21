@@ -35,6 +35,8 @@ class ClassSubjectsController < ApplicationController
 
   # DELETE /class_subjects/1
   def destroy
+    reservations = @class_subject.reservations
+    reservations.destroy_all
     @class_subject.destroy
   end
 
