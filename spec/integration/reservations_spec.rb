@@ -11,10 +11,10 @@ RSpec.describe 'reservations', type: :request do
           date: { type: :string },
           city: { type: :string },
           user_id: { type: :integer },
-          class_subject_id: { type: :integer },
+          classSubject_id: { type: :integer },
           start: { type: :string }
         },
-        required: %w[date city user_id class_subject_id start]
+        required: %w[date city user_id classSubject_id start]
       }
       response '201', 'resservation created' do
         let(:u1) do
@@ -26,7 +26,7 @@ RSpec.describe 'reservations', type: :request do
         end
 
         let(:resservation) do
-          { date: '2021-01-01', city: 'Cali', user_id: u1, class_subject_id: c1, start: '10:00' }
+          { date: '2021-01-01', city: 'Cali', user_id: u1, classSubject_id: c1, start: '10:00' }
         end
         run_test!
       end
@@ -42,10 +42,10 @@ RSpec.describe 'reservations', type: :request do
                    date: { type: :string },
                    city: { type: :string },
                    user_id: { type: :integer },
-                   class_subject_id: { type: :integer },
+                   classSubject_id: { type: :integer },
                    start: { type: :string }
                  },
-                 required: %w[id date city user_id class_subject_id start]
+                 required: %w[id date city user_id classSubject_id start]
           run_test!
         end
       end
@@ -62,13 +62,11 @@ RSpec.describe 'reservations', type: :request do
                    date: { type: :string },
                    city: { type: :string },
                    user_id: { type: :integer },
-                   class_subject_id: { type: :integer },
-                   start: { type: :string }
+                   classSubject_id: { type: :integer }
                  },
-                 required: %w[id date city user_id class_subject_id start]
+                 required: %w[id date city user_id classSubject_id start]
           let(:id) do
-            Reservation.create(date: '2021-01-01', city: 'Cali', user_id: 1, class_subject_id: 1,
-                               start: '10:00').id
+            Reservation.create(date: '2021-01-01', city: 'Cali', user_id: 1, classSubject_id: 1).id
           end
           run_test!
         end
