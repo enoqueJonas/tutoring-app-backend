@@ -19,7 +19,8 @@
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
-  - [👥 Authors ](#-authors-)
+    - [Run tests](#run-tests)
+    - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [Frontend](#frontend)
   - [🤝 Contributing ](#-contributing-)
@@ -62,7 +63,6 @@ This app is an api for the Tutoring app.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -89,6 +89,7 @@ Clone this repository to your desired folder:
 `bundle install`
 `rails db:create`
 `rails db:migrate`
+`rails server`
 
 ### Usage
 
@@ -97,6 +98,16 @@ To run the project, execute the following commands in your terminal:
 - Open your terminal and **rails server**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Run tests
+
+<details>
+<p>To run tests, run the following command:</p>
+  <ul>
+    <li>rspec</li>
+  </ul>
+</details>
+<br>
 
 ## 👥 Authors <a name="authors"></a>
 
