@@ -10,6 +10,7 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Turoring Booking Backend ](#-turoring-booking-backend-)
+
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -27,6 +28,14 @@
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
+    We are a team of 4
+
+- [👥 Authors ](#-authors-)
+
+<a href="https://github.com/users/enoqueJonas/projects/3">Kanbanboard</a>
+
+![kanbanboard](https://user-images.githubusercontent.com/76396858/244152021-b5aa9a67-4a61-42d7-9e25-a37a471ef039.png)
+![kanbanboard2](https://user-images.githubusercontent.com/76396858/244152081-c519f834-69f3-4041-b238-af54aa372688.png)
 
 # 📖 Turoring Booking Backend <a name="about-project"></a>
 
